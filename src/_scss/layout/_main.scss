@@ -1,0 +1,62 @@
+/*☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲
+Main
+☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲☱☲☴☲*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: $main;
+}
+
+.container {
+  height: 100%;
+  text-align: center;
+
+  &:before {
+    height: 100%;
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+#crackpot {
+  width: 280px;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  margin-top: -40px;
+}
+
+a {
+
+  &:link, &:visited {
+    color: $brand;
+    transition: all .3s;
+    text-decoration: none;
+  }
+  &:hover, &:focus {
+    color: darken($brand, 10%);
+  }
+}
+
+h2 a:link, h2 a:visited {
+  padding-left: 2px;
+  padding-right: 2px;
+  color: $brand;
+  border-bottom: 2px solid $brand;
+}
+
+h2 a:hover,
+h2 a:focus {
+  color: $main;
+  border-color: rgba(0,0,0,0);
+  background-color: $brand;
+  text-decoration: none;
+}
+
+a .fa-github {
+  margin-top: 1em;
+  font-size: 50px;
+}

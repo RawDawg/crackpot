@@ -1,0 +1,43 @@
+{
+  "name": "Crackpot",
+  "version": "1.0.0",
+  "description": "A simple Gulp boilerplate for ultra fast landing pages",
+  "author": {
+    "name": "David Spörl",
+    "url": "http://www.theofficial.de"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RawDawg/Crackpot/"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "critical": "git://github.com/addyosmani/critical.git",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-gzip": "^1.4.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.6.3",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "node-notifier": "^4.5.0",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.2"
+  }
+}
